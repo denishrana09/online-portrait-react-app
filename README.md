@@ -36,4 +36,4 @@ Prefer using [sass-boilerplate](https://github.com/HugoGiraudel/sass-boilerplate
 ## Like my work?
 You can support me on Patreon on this <a rel="noopener noreferrer" href="https://www.patreon.com/onlineportrait" target="_blank">Link</a> or
 
-![PayTM Donate](https://static1.paytm.in/1.4/plogo/paytmlogo-coloured.png) on this [link](https://paytm.business/link/20862/LL_11597787)
+![PayTM Donate](https://static1.paytm.in/1.4/plogo/paytmlogo-coloured.png) on this [Link](https://paytm.business/link/20862/LL_11597787)
