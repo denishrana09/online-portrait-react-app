@@ -1,0 +1,1 @@
+export const REACT_GA_KEY = 'UA-146436091-1';

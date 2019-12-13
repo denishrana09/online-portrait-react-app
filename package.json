@@ -1,0 +1,41 @@
+{
+  "name": "art-site",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "emailjs-com": "^2.3.2",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.8",
+    "react-dom": "^16.8.6",
+    "react-ga": "^2.6.0",
+    "react-helmet": "^5.2.1",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start && yarn run watch:sass",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "watch:sass": "yarn run build:sass && yarn run build:sass -- -w",
+    "build:sass": "node-sass -r --output-style compressed src/style/main.scss -o src/style/"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

@@ -1,0 +1,79 @@
+.photo {
+  img {
+    width: 100%;
+  }
+
+  .close-button {
+    background: $brand-color !important;
+    border: none;
+
+    &:hover,
+    &:active {
+      background: $brand-color !important;
+      border: none;
+    }
+
+    &:active,
+    &:focus {
+      background: $brand-color !important;
+      border: none !important;
+      box-shadow: none !important;
+      outline: none;
+    }
+  }
+
+  .content-col {
+    @media only screen and (max-width: 480px) {
+      text-align: center;
+    }
+
+    .pic-dialogue {
+      font-weight: 600;
+      margin-top: 15px;
+
+      @media only screen and (max-width: 480px) {
+        text-align: center;
+        margin-top: 2px;
+      }
+    }
+
+    .order-button {
+      margin-top: 5px;
+      font-weight: bold;
+      color: $brand-color;
+      border-color: $brand-color;
+      text-decoration: none !important;
+      outline: none !important;
+
+      &:hover {
+        text-decoration: none;
+        color: $brand-color;
+        border-color: $brand-color;
+        outline: none !important;
+      }
+
+      &:active,
+      &:focus {
+        box-shadow: none !important;
+        outline: none !important;
+      }
+
+      &:active {
+        text-decoration: none;
+        color: white;
+        background-color: $brand-color !important;
+        border-color:$brand-color !important;
+        outline: none !important;
+
+        .fa-heart {
+          color: white;
+        }
+      }
+
+      .fa-heart {
+        color: $brand-color;
+      }
+    }
+  }
+
+}

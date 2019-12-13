@@ -1,0 +1,32 @@
+.contact-container {
+  .contact-form {
+    margin-top: 15px;
+
+    .submit-btn {
+      margin-right: 10px;
+      color: white;
+      background-color: $brand-color !important;
+      border-color: $brand-color !important;
+      outline: none !important;
+    }
+
+    .cancel-button {
+      background: none;
+      border: 1px solid;
+    }
+  }
+
+  .alert {
+    margin-top: 10px;
+  }
+
+  .close-button {
+    background: none;
+    border: none;
+  }
+  
+  .mobile-number{
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+  }
+}

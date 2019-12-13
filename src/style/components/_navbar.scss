@@ -1,0 +1,41 @@
+.appnav {
+  // border-bottom: 1px solid #eee;
+
+  .bg-light {
+    background-color: $brand-color !important;
+  }
+
+  .navbar-brand {
+    color: white !important;
+  }
+
+  .nav-link {
+    text-align: left;
+    padding-left: 5px;
+    color: white !important;
+
+    &:focus {
+      box-shadow: none;
+    }
+  }
+
+  .navbar-light .navbar-toggler {
+    color: white;
+    border: none;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .navbar-nav {
+    margin: unset;
+    margin-left: auto;
+    margin-right: 0 !important;
+
+    @media only screen and (max-width: 480px) {
+      text-align: left;
+      margin-right: auto !important;
+    }
+  }
+}
